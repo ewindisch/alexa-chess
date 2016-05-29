@@ -4,6 +4,9 @@
       "intent": "ElapsedIntent"
     },
     {
+      "intent": "MoveIntent"
+    },
+    {
       "intent": "AMAZON.StopIntent"
     },
     {

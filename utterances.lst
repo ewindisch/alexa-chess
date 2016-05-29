@@ -2,6 +2,9 @@ AMAZON.NextIntent next player
 AMAZON.NextIntent next
 AMAZON.NextIntent go
 AMAZON.NextIntent done
+AMAZON.StopIntent game over
+AMAZON.StopIntent checkmate
+AMAZON.StopIntent stop the clock
 ElapsedIntent how much time has elapsed
 ElapsedIntent elapsed
 ElapsedIntent how long as it been
@@ -11,3 +14,8 @@ ElapsedIntent how long has it been
 ElapsedIntent how long
 ElapsedIntent how many minutes
 ElapsedIntent how many seconds
+MoveIntent move {Piece} {Destination}
+MoveIntent move {Piece} to {Destination}
+MoveIntent {Piece} {Destination}
+MoveIntent {Piece} to {Destination}
+MoveIntent {Piece} takes {Destination}
