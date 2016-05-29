@@ -4,7 +4,21 @@
       "intent": "ElapsedIntent"
     },
     {
-      "intent": "MoveIntent"
+      "intent": "MoveIntent",
+      "slots": [
+        {
+          "name": "Piece",
+          "type": "CHESS_PIECE"
+        },
+        {
+          "name": "GridLetter",
+          "type": "GRID_LETTER"
+        },
+        {
+          "name": "GridNumber",
+          "type": "GRID_NUMBER"
+        }
+      ]
     },
     {
       "intent": "AMAZON.StopIntent"

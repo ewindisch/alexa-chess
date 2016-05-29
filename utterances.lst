@@ -14,8 +14,8 @@ ElapsedIntent how long has it been
 ElapsedIntent how long
 ElapsedIntent how many minutes
 ElapsedIntent how many seconds
-MoveIntent move {Piece} {Destination}
-MoveIntent move {Piece} to {Destination}
-MoveIntent {Piece} {Destination}
-MoveIntent {Piece} to {Destination}
-MoveIntent {Piece} takes {Destination}
+MoveIntent move {Piece} {GridLetter} {GridNumber}
+MoveIntent move {Piece} to {GridLetter} {GridNumber}
+MoveIntent {Piece} {GridLetter} {GridNumber}
+MoveIntent {Piece} to {GridLetter} {GridNumber}
+MoveIntent {Piece} takes {GridLetter} {GridNumber}
