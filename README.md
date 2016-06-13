@@ -11,5 +11,7 @@ their moves to the AI.
 This game is powered by Stockfish. A binary named 'stockfish' must be
 placed at the path ./functions/chess/stockfish
 
-License: Apache/2.0
-Author: Eric Windisch <eric@iopipe.com>
+License & Copyright
+-------------------
+
+Licensed under the Apache/2.0 by Eric Windisch <eric@iopipe.com>.
